@@ -14,6 +14,7 @@ body{
   background-color: #fff;
   padding: 20px 30px;
   border-radius: 10px;
+  text-align: center;
 }
 
 h1{
@@ -33,7 +34,7 @@ input{
 }
 
 button {
-  background-color: #000286;
+  background-color: #08c421;
   color: #fff;
   padding: 5px 10px;
   border: none;
@@ -46,8 +47,22 @@ button:hover{
   opacity: 1;
 }
 
+.complete {
+  background-color: #08c421;
+}
+
+.remove{
+  background-color: #ff0000;
+}
+
 .todo-form{
   padding-bottom: 1.5rem;
+}
+
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555;
 }
 
 input, 
