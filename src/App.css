@@ -14,7 +14,6 @@ body{
   background-color: #fff;
   padding: 20px 30px;
   border-radius: 10px;
-  text-align: center;
 }
 
 h1{
@@ -36,11 +35,13 @@ input{
 button {
   background-color: #08c421;
   color: #fff;
+  margin-right: 10px;
   padding: 5px 10px;
   border: none;
   border-radius: 3px;
-  opacity: .8;
-  transition: .3;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3;
 }
 
 button:hover{
@@ -55,8 +56,19 @@ button:hover{
   background-color: #ff0000;
 }
 
-.todo-form{
-  padding-bottom: 1.5rem;
+.todo {
+  background-color: #c9c9c9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  padding: 10px; 
+  margin-bottom: 10px; 
+  border-radius: 5px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo .content {
+  margin-bottom: 10px;
 }
 
 .todo-list{
