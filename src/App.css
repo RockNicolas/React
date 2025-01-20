@@ -1,12 +1,11 @@
-body{
+body {
   font-family: Arial;
-  background-color: #fff;
+  background-color: #fff; /* cor de fundo principal */
   padding: 30px;
   color: #333;
-  background-image: url('./img/images.png');
-  background-position: center;
-  background-size: cover;
+  background: linear-gradient(to right, #1eff00, #ff0000); /* gradiente de duas cores */
 }
+
 
 .app{
   max-width: 600px;

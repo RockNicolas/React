@@ -23,4 +23,4 @@ const filter = ({ filter, setFilter, setSort }) => {
   )
 }
 
-export default filter
+export default filter;
